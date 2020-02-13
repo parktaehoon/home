@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>태훈의 요리교실</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -36,12 +37,11 @@
       </ul>
     </nav>
     <main class="main">
-      <section class="lecture">
-        <h2 class="a11y-hidden">강좌소개</h2>
+      <div class="group group-left">
         <article class="vigan">
           <div class="detail">
-            <h3 class="article-subject">한국의 채식주이자</h3>
-            <p>런던에서의 5주 코스</p>
+            <h3 class="article-title">한국의 채식주이자</h3>
+            <p class="article-subtitle">런던에서의 5주 코스</p>
             <p>5주간 전통적인 일본의 채식주의자 음식에 대해 소개하고 쌀과 국수 요리를 가르친다.</p>
           </div>
           <figure class="thumnail">
@@ -51,8 +51,8 @@
         </article>
         <article class="master-class">
           <div class="detail">
-            <h3 class="article-subject">소스 마스터 클래스</h3>
-            <p>런던에서의 5주 코스</p>
+            <h3 class="article-title">소스 마스터 클래스</h3>
+            <p class="article-subtitle">런던에서의 5주 코스</p>
             <p>1일 집중 코스에서는 다양한 일본 요리에서 사용할 수 있는 가장 맛있는 소스를 만드는 방법을 살펴본다.</p>
           </div>
           <figure class="thumnail">
@@ -60,33 +60,35 @@
             <figcaption>Teriyaki Saurce</figcaption>
           </figure>
         </article>
-      </section>
-      <section class="favorite">
-        <h2 class="section-subject">인기 요리법</h2>
-        <ul class="cook-list">
-          <li>
-            <a href="#">야키토리(Yakitori) - 구운 닭</a>
-          </li>
-          <li>
-            <a href="#">츠쿠네(Tsukune) - 닭꼬치</a>
-          </li>
-          <li>
-            <a href="#">오코노미야키(Okonomiyaki)- 해물 부침개</a>
-          </li>
-          <li>
-            <a href="#">미즈타키(Mizutaki) - 영계백숙</a>
-          </li>
-        </ul>
-      </section>
-      <section class="address">
-        <h2 class="section-subject">
-          연락처
-        </h2>
-        <p>Yoko's Kitchen <br>
-          27 Redchurch Street <br>
-          Shoreditch <br>
-          London E2 7DP</p>
-      </section>
+      </div>
+      <div class="group group-right">
+        <section class="favorite">
+          <h2 class="section-subject">인기 요리법</h2>
+          <ul class="cook-list">
+            <li>
+              <a href="#">야키토리(Yakitori) - 구운 닭</a>
+            </li>
+            <li>
+              <a href="#">츠쿠네(Tsukune) - 닭꼬치</a>
+            </li>
+            <li>
+              <a href="#">오코노미야키(Okonomiyaki)- 해물 부침개</a>
+            </li>
+            <li>
+              <a href="#">미즈타키(Mizutaki) - 영계백숙</a>
+            </li>
+          </ul>
+        </section>
+        <section class="address">
+          <h2 class="section-subject">
+            연락처
+          </h2>
+          <p>Yoko's Kitchen <br>
+            27 Redchurch Street <br>
+            Shoreditch <br>
+            London E2 7DP</p>
+        </section>
+      </div>
     </main>
     <footer class="footer">
       <small class="copyright">&copy; 2011 TH's Kitchen</small>
