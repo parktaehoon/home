@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,700&display=swap');
+
+/* 숨김 컨텐츠 */
+.a11y-hidden{
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0,0,0,0);
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+/* 기본 스타일 */
+a{
+  color: inherit;
+  text-decoration: none;
+}
+/* 본문 */
+body{
+  color: #666;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 400;
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+}
+body a, body img{
+  vertical-align: top;
+}
+/* 컨테이너 */
+.container{
+  width: 940px;
+  background-color: #fff;
+  border: 1px solid #888;
+  margin: 20px auto;
+}
+/* 헤더 - 로고 */
+.logo{
+  margin: 0;
+}
+/* 네비게이션 - 메인메뉴 */
+.menu{
+  background-color: #aeaca8;
+  margin: 0;
+  list-style: none;
+  color: #fff;
+  overflow: hidden;
+}
+.menu li{
+  float: left;
+  margin: 0.5em 1em;
+  font-weight: 700;
+}
+/* 메인 컨텐츠 */
+.main{
+  overflow: hidden;
+}
+.main p{
+  line-height: 1.5em;
+}
+.group{
+  box-sizing: border-box;
+  padding: 1em;
+}
+.group-left{
+  float: left;
+  width: 650px
+}
+.group-right{
+  float: right;
+  width: 290px;
+  border-left: 1px solid #efefef;
+}
+/* article 이미지 */
+.thumnail{
+  border: 1px solid #eee;
+  padding: 0.5em;
+  margin: 1em 1em;
+  float: left;
+}
+.detail{
+  width: 260px;
+  float: right;
+}
+/* 인기요리법 */
+.favorite, .section-subject, .article-subtitle{
+  color: #de6581;
+}
+.article-title{
+  margin-bottom: 0;
+}
+
+.article-subtitle{
+  margin-top: 0;
+}
+.section-subject{
+  margin-top: 1em;
+}
+.cook-list{
+  padding-left: 0;
+  list-style: none;
+}
+.cook-list a{
+  display: block;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #aeaca8;
+}
+.cook-list a:hover{
+  color: #985d6a;
+  background-color: #efefef;
+}
+/* 푸터 */
+.footer{
+  background-color: #aeaca8;
+  color: #fff;
+  padding: 1em 2em;
+}
